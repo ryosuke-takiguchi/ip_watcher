@@ -33,10 +33,7 @@ python main.py
 python -m venv venv
 
 # 仮想環境を有効化
-# Windows:
 venv\Scripts\activate
-# macOS/Linux:
-source venv/bin/activate
 
 # 依存ライブラリをインストール
 pip install -r requirements.txt

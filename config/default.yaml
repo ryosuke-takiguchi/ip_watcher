@@ -3,9 +3,9 @@ ip_check:
   interval: 300     # 秒（5分）
 
 smtp:
-  server: "impcode.sakura.ne.jp"
+  server: "your-mail-server"
   port: 465
-  user: "ryosuke_takiguchi@impcode.net"
-  password: "impcodeadmin1"
-  to: "ryosuke_takiguchi@impcode.net"
-  ehlo_name: "impcode.net"  # 空文字可。省略時は空文字
+  user: "your-mail-user"
+  password: "your-mail-password"
+  to: "receive-mail-address"
+  ehlo_name: ""  # 空文字可。省略時は空文字

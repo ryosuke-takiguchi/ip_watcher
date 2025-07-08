@@ -1,0 +1,11 @@
+ip_check:
+  url: "https://api.ipify.org"
+  interval: 300     # 秒（5分）
+
+smtp:
+  server: "impcode.sakura.ne.jp"
+  port: 465
+  user: "ryosuke_takiguchi@impcode.net"
+  password: "impcodeadmin1"
+  to: "ryosuke_takiguchi@impcode.net"
+  ehlo_name: "impcode.net"  # 空文字可。省略時は空文字
